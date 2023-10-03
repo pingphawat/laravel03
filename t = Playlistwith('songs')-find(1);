@@ -1,0 +1,40 @@
+[90m= [39m[34;4mApp\Models\Playlist[39;24m {#7235
+    [34mid[39m: [35m1[39m,
+    [34mname[39m: "[32mMy first playlist[39m",
+    [34muser_id[39m: [35m1[39m,
+    [34maccessibility[39m: "[32mPUBLIC[39m",
+    [34mcreated_at[39m: "[32m2023-08-05 23:11:17[39m",
+    [34mupdated_at[39m: "[32m2023-08-05 23:11:17[39m",
+    [34mdeleted_at[39m: [36mnull[39m,
+    [34msongs[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7239
+      [34mall[39m: [
+        [34;4mApp\Models\Song[39;24m {#7253
+          [34mid[39m: [35m1[39m,
+          [34mtitle[39m: "[32m17 Hoo Hoo[39m",
+          [34martist_id[39m: [35m1[39m,
+          [34mduration[39m: [35m193[39m,
+          [34mcreated_at[39m: "[32m2023-07-25 09:56:07[39m",
+          [34mupdated_at[39m: "[32m2023-07-25 09:56:07[39m",
+          [34mdeleted_at[39m: [36mnull[39m,
+          [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7250
+            [34mplaylist_id[39m: [35m1[39m,
+            [34msong_id[39m: [35m1[39m,
+          },
+        },
+        [34;4mApp\Models\Song[39;24m {#7254
+          [34mid[39m: [35m2[39m,
+          [34mtitle[39m: "[32mหมดนี้ให้เธอ[39m",
+          [34martist_id[39m: [35m1[39m,
+          [34mduration[39m: [35m5000[39m,
+          [34mcreated_at[39m: "[32m2023-07-25 20:57:45[39m",
+          [34mupdated_at[39m: "[32m2023-07-25 20:57:45[39m",
+          [34mdeleted_at[39m: [36mnull[39m,
+          [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7246
+            [34mplaylist_id[39m: [35m1[39m,
+            [34msong_id[39m: [35m2[39m,
+          },
+        },
+      ],
+    },
+  }
+

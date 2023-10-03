@@ -1,0 +1,105 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7211
+    [34mall[39m: [
+      [34;4mApp\Models\Playlist[39;24m {#7225
+        [34mid[39m: [35m1[39m,
+        [34mname[39m: "[32mMy first playlist[39m",
+        [34muser_id[39m: [35m1[39m,
+        [34maccessibility[39m: "[32mPUBLIC[39m",
+        [34mcreated_at[39m: "[32m2023-08-05 23:11:17[39m",
+        [34mupdated_at[39m: "[32m2023-08-05 23:11:17[39m",
+        [34mdeleted_at[39m: [36mnull[39m,
+        [34msongs[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7234
+          [34mall[39m: [
+            [34;4mApp\Models\Song[39;24m {#7249
+              [34mid[39m: [35m1[39m,
+              [34mtitle[39m: "[32m17 Hoo Hoo[39m",
+              [34martist_id[39m: [35m1[39m,
+              [34mduration[39m: [35m193[39m,
+              [34mcreated_at[39m: "[32m2023-07-25 09:56:07[39m",
+              [34mupdated_at[39m: "[32m2023-07-25 09:56:07[39m",
+              [34mdeleted_at[39m: [36mnull[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7248
+                [34mplaylist_id[39m: [35m1[39m,
+                [34msong_id[39m: [35m1[39m,
+              },
+            },
+            [34;4mApp\Models\Song[39;24m {#7250
+              [34mid[39m: [35m4[39m,
+              [34mtitle[39m: "[32mRiver[39m",
+              [34martist_id[39m: [35m1[39m,
+              [34mduration[39m: [35m200[39m,
+              [34mcreated_at[39m: "[32m2023-08-07 18:47:02[39m",
+              [34mupdated_at[39m: "[32m2023-08-07 18:47:02[39m",
+              [34mdeleted_at[39m: [36mnull[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7239
+                [34mplaylist_id[39m: [35m1[39m,
+                [34msong_id[39m: [35m4[39m,
+              },
+            },
+            [34;4mApp\Models\Song[39;24m {#7251
+              [34mid[39m: [35m5[39m,
+              [34mtitle[39m: "[32mSong for You[39m",
+              [34martist_id[39m: [35m1[39m,
+              [34mduration[39m: [35m168[39m,
+              [34mcreated_at[39m: "[32m2023-08-07 18:47:51[39m",
+              [34mupdated_at[39m: "[32m2023-08-07 18:47:51[39m",
+              [34mdeleted_at[39m: [36mnull[39m,
+              [34mpivot[39m: [34;4mIlluminate\Database\Eloquent\Relations\Pivot[39;24m {#7241
+                [34mplaylist_id[39m: [35m1[39m,
+                [34msong_id[39m: [35m5[39m,
+              },
+            },
+          ],
+        },
+      },
+      [34;4mApp\Models\Playlist[39;24m {#7226
+        [34mid[39m: [35m2[39m,
+        [34mname[39m: "[32mMy second playlist[39m",
+        [34muser_id[39m: [35m1[39m,
+        [34maccessibility[39m: "[32mPUBLIC[39m",
+        [34mcreated_at[39m: "[32m2023-08-05 23:11:48[39m",
+        [34mupdated_at[39m: "[32m2023-08-05 23:11:48[39m",
+        [34mdeleted_at[39m: [36mnull[39m,
+        [34msongs[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7232
+          [34mall[39m: [],
+        },
+      },
+      [34;4mApp\Models\Playlist[39;24m {#7227
+        [34mid[39m: [35m3[39m,
+        [34mname[39m: "[32mMy third playlist[39m",
+        [34muser_id[39m: [35m1[39m,
+        [34maccessibility[39m: "[32mPUBLIC[39m",
+        [34mcreated_at[39m: "[32m2023-08-05 23:12:19[39m",
+        [34mupdated_at[39m: "[32m2023-08-05 23:12:19[39m",
+        [34mdeleted_at[39m: [36mnull[39m,
+        [34msongs[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7230
+          [34mall[39m: [],
+        },
+      },
+      [34;4mApp\Models\Playlist[39;24m {#7228
+        [34mid[39m: [35m4[39m,
+        [34mname[39m: "[32mMy private playlist[39m",
+        [34muser_id[39m: [35m1[39m,
+        [34maccessibility[39m: "[32mPRIVATE[39m",
+        [34mcreated_at[39m: "[32m2023-08-05 23:13:19[39m",
+        [34mupdated_at[39m: "[32m2023-08-05 23:13:19[39m",
+        [34mdeleted_at[39m: [36mnull[39m,
+        [34msongs[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7223
+          [34mall[39m: [],
+        },
+      },
+      [34;4mApp\Models\Playlist[39;24m {#7229
+        [34mid[39m: [35m5[39m,
+        [34mname[39m: "[32mAnother private playlist[39m",
+        [34muser_id[39m: [35m1[39m,
+        [34maccessibility[39m: "[32mPRIVATE[39m",
+        [34mcreated_at[39m: "[32m2023-08-05 23:13:49[39m",
+        [34mupdated_at[39m: "[32m2023-08-05 23:13:49[39m",
+        [34mdeleted_at[39m: [36mnull[39m,
+        [34msongs[39m: [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#7231
+          [34mall[39m: [],
+        },
+      },
+    ],
+  }
+
